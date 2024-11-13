@@ -13,8 +13,15 @@ DOMAIN-SUFFIX,hao123.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 
-# IP段匹配
-IP-CIDR,219.146.1.66/32,no-resolve
+# 绕过本地地址
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,240.0.0.0/4,no-resolve
+DOMAIN-SUFFIX,localhost
+DOMAIN-SUFFIX,local
 
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
