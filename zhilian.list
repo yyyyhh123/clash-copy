@@ -4,6 +4,9 @@
 #解决play商店无法更新软件最有效方法20241113 下面网址直连即可
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
+#绕过群晖DDNS
+DOMAINKEYWORD,yyyyhh123
+
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
