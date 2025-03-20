@@ -4,6 +4,11 @@
 #解决play商店无法更新软件最有效方法20241113 下面网址直连即可
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
+#解决play商店无法下载20250320增补（效果待定）
+DOMAIN-SUFFIX,services.googleapis.cn  
+DOMAIN-SUFFIX,googleapis.cn  
+DOMAIN-SUFFIX,gstatic.com
+
 #绕过群晖DDNS
 DOMAINKEYWORD,yyyyhh123
 
