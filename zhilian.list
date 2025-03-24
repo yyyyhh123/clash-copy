@@ -9,8 +9,52 @@ DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,googleapis.cn  
 DOMAIN-SUFFIX,gstatic.com
 
-#绕过群晖DDNS
-DOMAINKEYWORD,yyyyhh123
+# ===== Synology DDNS 相关 =====
+DOMAIN-SUFFIX,synology.cn,DIRECT
+DOMAIN-SUFFIX,synology.com,DIRECT
+DOMAIN-SUFFIX,quickconnect.to,DIRECT
+DOMAIN-SUFFIX,quickconnect.cn,DIRECT
+DOMAIN-SUFFIX,checkip.synology.com,DIRECT
+DOMAIN-SUFFIX,checkipv6.synology.com,DIRECT
+DOMAIN-SUFFIX,checkport.synology.com,DIRECT
+DOMAIN-SUFFIX,ddns.synology.com,DIRECT
+DOMAIN-SUFFIX,account.synology.com,DIRECT
+
+# ===== QNAP DDNS 相关 =====
+DOMAIN-SUFFIX,myqnapcloud.com,DIRECT
+DOMAIN-SUFFIX,qnap.com,DIRECT
+DOMAIN-SUFFIX,update.qnap.com,DIRECT
+DOMAIN-SUFFIX,edge.api.myqnapcloud.com,DIRECT
+
+# ===== 常见 DDNS 提供商 =====
+DOMAIN-SUFFIX,tpddns.cn,DIRECT
+DOMAIN-SUFFIX,duckdns.org,DIRECT
+DOMAIN-SUFFIX,dns-dns.com,DIRECT
+DOMAIN-SUFFIX,3322.org,DIRECT
+DOMAIN-SUFFIX,3322.net,DIRECT
+DOMAIN-SUFFIX,nat123.com,DIRECT
+DOMAIN-SUFFIX,dynu.com,DIRECT
+DOMAIN-SUFFIX,changeip.com,DIRECT
+DOMAIN-SUFFIX,myddns.rocks,DIRECT
+DOMAIN-SUFFIX,ddnsfree.com,DIRECT
+DOMAIN-SUFFIX,dyndns.org,DIRECT
+
+# ===== 公网 IP 查询 API =====
+DOMAIN-SUFFIX,dnsapi.cn,DIRECT  # 腾讯云 DDNS API
+DOMAIN-SUFFIX,api.ipify.org,DIRECT
+DOMAIN-SUFFIX,api.nn.ci,DIRECT
+DOMAIN-SUFFIX,ifconfig.me,DIRECT
+DOMAIN-SUFFIX,ip.sb,DIRECT
+
+# ===== QNAP 使用的 AWS IP 段（避免被代理）=====
+IP-CIDR,34.234.183.0/24,DIRECT,no-resolve
+IP-CIDR,3.231.124.0/24,DIRECT,no-resolve
+IP-CIDR,34.235.82.0/24,DIRECT,no-resolve
+IP-CIDR,44.209.213.0/24,DIRECT,no-resolve
+IP-CIDR,18.214.42.0/24,DIRECT,no-resolve
+IP-CIDR,52.86.69.0/24,DIRECT,no-resolve
+IP-CIDR,34.199.209.0/24,DIRECT,no-resolve
+IP-CIDR,54.159.2.0/24,DIRECT,no-resolve
 
 # MyList
 # 域名后缀匹配
