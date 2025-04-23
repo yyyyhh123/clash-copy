@@ -1,6 +1,9 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
 # Lynn的自定义直连
+#解决DDNS解析
+DOMAIN-SUFFIX,checkipv6.dyndns.com
+
 #解决play商店无法更新软件最有效方法20241113 下面网址直连即可
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
