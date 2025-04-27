@@ -1,6 +1,9 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
 # Lynn的自定义直连
+#阅读
+DOMAIN-SUFFIX,zzs5.net
+
 #解决DDNS解析
 DOMAIN-SUFFIX,checkipv6.dyndns.com
 
